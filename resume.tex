@@ -1,0 +1,162 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Anirudh Ranganatha Prasad}}\\
+	Bangalore, India $\cdot$ anirudhprasad131@protonmail.com $\cdot$ +91 7338936843 $\cdot$ https://icarus.tk\\
+\end{center}
+
+
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{Stanford University Bug Bounty} \hfill Remote\\
+\textit{Bug Bounty Hunter}\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Discovered a HTML Injection Bug in one of Stanford University\textquotesingle{}s subdomains. Dedicated one month towards the program
+	\item Manual testing and automated testing process
+\end{itemize}
+\textbf{Cambridge University Bug Bounty} \hfill Remote\\
+\textit{Bug Bounty Hunter}\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Discovered a JIRA misconfiguration in Cambridge University\textquotesingle{}s website.
+\end{itemize}
+\textbf{Splendour Medicare Technologies} \hfill Coimbatore, Tamil Nadu - India / Remote\\
+\textit{Software Developer} \hfill 2020 - 2022\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Built an android application to the specifications of my client with Java while in high school
+	\item Engineered an inventory management system for their raw material intake written in python and react
+\end{itemize}
+\textbf{Alcoding Club} \hfill PES University\\
+\textit{Tecnhical Member} \hfill Oct 2022 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Problem setting for contests
+\end{itemize}
+\textbf{ISFCR PESU} \hfill PES University\\
+\textit{CTF Team Member} \hfill Feb 2023 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item CTF Team member, currently at 3rd place nation-wide
+	\item Mentoring students from 1st to 4th year in a hackathon and workshops
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Bash:         & Proficient in bash scripting with the ability to make short shell scripts for automation tasks         \\
+	Linux:        & Comfortable with Linux administration,comfortable with setting up servers and running tests            \\
+	Pentesting:   & Ability to run a full penetration test on a network, a server or a website and finding vulnerabilities \\
+	Python:       & Scripting, custom malware, neural networks and encryption software, and custom networking tools        \\
+	C/C++:        & Malware, experience in debugging and reverse engineering and binary exploitation with assembly         \\
+	Java:         & Comfortable with android application development with Java                                             \\
+	WebDev:       & Backend web development, DevOps, html/css and JS                                                       \\
+	x86 Assembly: & Proficient in witing code in Assembly language for x86 architecture                                    \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects [More at github.com/Icarus131]}
+{\textbf{MalwareLabs}} {\sl Python, Pickle, JavaScript} \hfill https://github.com/Icarus131/MalwareLabs\\
+A random forest machine learning algorithm to detect malware\\
+\vspace*{2mm}
+{\textbf{Socketeer}} {\sl Python, Linux} \hfill https://github.com/Icarus131/Socketeer\\
+Socketeer is a MiTM framework for attacks such as arp-spoofing, dns-spoofing and http-redirect\\
+\vspace*{2mm}
+{\textbf{LazyBot}} {\sl C/C++, ARM Assembly, Python, FreeRTOS} \\
+A line following pick and place robot that uses IR sensors and a 3-DOF arm\\
+\vspace*{2mm}
+{\textbf{IcarOS}} {\sl x86 Assembly, C, Rust, Bash} \hfill https://github.com/Icarus131/IcarOS\\
+A small and simple bootloader for x86, an ongoing osdev project\\
+\vspace*{2mm}
+
+\header{Activities}
+\textbf{ISFCR Dean\textquotesingle{}s Award} \hfill PESU ISFCR\\
+Finished 4th place in the ISFCR Crypto CTF \hfill 22 Oct 2022\\
+\vspace*{2mm}
+\textbf{Organized Hackathon for ISFCR PESU} \hfill PESU ISFCR\\
+Organized a university level hackathon as part of the core team of a cybersecurity club\\
+\vspace*{2mm}
+\textbf{Synapse State-wide Hackathon} \hfill PESU ECE Department\\
+Secured 4th Place State-wide in the Synapse hackathon and won the MVP award for building a line following pick and place robot. \hfill 27 November 2022\\
+\vspace*{2mm}
+\textbf{Cryptography and Steganography Lecture} \hfill ISFCR PESU\\
+Organized a workshop and gave a talk on steganography and cryptography \hfill April 26 2023\\
+\vspace*{2mm}
+
+\ 
+\end{document}

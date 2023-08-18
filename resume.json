@@ -1,0 +1,205 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Experience",
+    "skills": "Skills",
+    "awards": "Activities",
+    "projects": "Projects [More at github.com/Icarus131]"
+  },
+  "basics": {
+    "email": "anirudhprasad131@protonmail.com",
+    "website": "https://icarus.tk",
+    "name": "Anirudh Ranganatha Prasad",
+    "phone": "+91 7338936843",
+    "location": {
+      "address": "Bangalore, India"
+    }
+  },
+  "education": [
+    {
+      "area": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": ""
+    }
+  ],
+  "work": [
+    {
+      "location": "Remote",
+      "website": "",
+      "highlights": [
+        "Discovered a HTML Injection Bug in one of Stanford University's subdomains. Dedicated one month towards the program",
+        "Manual testing and automated testing process"
+      ],
+      "company": "Stanford University Bug Bounty",
+      "position": "Bug Bounty Hunter"
+    },
+    {
+      "highlights": [
+        "Discovered a JIRA misconfiguration in Cambridge University's website."
+      ],
+      "location": "Remote",
+      "company": "Cambridge University Bug Bounty",
+      "position": "Bug Bounty Hunter"
+    },
+    {
+      "highlights": [
+        "Built an android application to the specifications of my client with Java while in high school",
+        "Engineered an inventory management system for their raw material intake written in python and react"
+      ],
+      "company": "Splendour Medicare Technologies",
+      "position": "Software Developer",
+      "location": "Coimbatore, Tamil Nadu - India / Remote",
+      "startDate": "2020",
+      "endDate": "2022"
+    },
+    {
+      "highlights": [
+        "Problem setting for contests"
+      ],
+      "company": "Alcoding Club",
+      "position": "Tecnhical Member",
+      "location": "PES University",
+      "startDate": "Oct 2022",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "CTF Team member, currently at 3rd place nation-wide",
+        "Mentoring students from 1st to 4th year in a hackathon and workshops"
+      ],
+      "company": "ISFCR PESU",
+      "position": "CTF Team Member",
+      "location": "PES University",
+      "startDate": "Feb 2023",
+      "endDate": "Present"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": [
+        "Proficient in bash scripting with the ability to make short shell scripts for automation tasks"
+      ]
+    },
+    {
+      "keywords": [
+        "Comfortable with Linux administration,comfortable with setting up servers and running tests"
+      ],
+      "name": "Linux"
+    },
+    {
+      "keywords": [
+        "Ability to run a full penetration test on a network, a server or a website and finding vulnerabilities"
+      ],
+      "name": "Pentesting"
+    },
+    {
+      "keywords": [
+        "Scripting, custom malware, neural networks and encryption software, and custom networking tools"
+      ],
+      "name": "Python"
+    },
+    {
+      "keywords": [
+        "Malware, experience in debugging and reverse engineering and binary exploitation with assembly"
+      ],
+      "name": "C/C++"
+    },
+    {
+      "keywords": [
+        "Comfortable with android application development with Java"
+      ],
+      "name": "Java"
+    },
+    {
+      "keywords": [
+        "Backend web development, DevOps, html/css and JS"
+      ],
+      "name": "WebDev"
+    },
+    {
+      "keywords": [
+        "Proficient in witing code in Assembly language for x86 architecture"
+      ],
+      "name": "x86 Assembly"
+    }
+  ],
+  "projects": [
+    {
+      "name": "MalwareLabs",
+      "description": "A random forest machine learning algorithm to detect malware",
+      "url": "https://github.com/Icarus131/MalwareLabs",
+      "keywords": [
+        "Python",
+        "Pickle",
+        "JavaScript"
+      ]
+    },
+    {
+      "keywords": [
+        "Python",
+        "Linux"
+      ],
+      "name": "Socketeer",
+      "description": "Socketeer is a MiTM framework for attacks such as arp-spoofing, dns-spoofing and http-redirect",
+      "url": "https://github.com/Icarus131/Socketeer"
+    },
+    {
+      "keywords": [
+        "C/C++",
+        "ARM Assembly",
+        "Python",
+        "FreeRTOS"
+      ],
+      "name": "LazyBot",
+      "description": "A line following pick and place robot that uses IR sensors and a 3-DOF arm"
+    },
+    {
+      "keywords": [
+        "x86 Assembly",
+        "C",
+        "Rust",
+        "Bash"
+      ],
+      "name": "IcarOS",
+      "description": "A small and simple bootloader for x86, an ongoing osdev project",
+      "url": "https://github.com/Icarus131/IcarOS"
+    }
+  ],
+  "awards": [
+    {
+      "title": "ISFCR Dean's Award",
+      "date": "22 Oct 2022",
+      "awarder": "PESU ISFCR",
+      "summary": "Finished 4th place in the ISFCR Crypto CTF"
+    },
+    {
+      "title": "Organized Hackathon for ISFCR PESU",
+      "summary": "Organized a university level hackathon as part of the core team of a cybersecurity club",
+      "awarder": "PESU ISFCR"
+    },
+    {
+      "title": "Synapse State-wide Hackathon",
+      "summary": "Secured 4th Place State-wide in the Synapse hackathon and won the MVP award for building a line following pick and place robot.",
+      "awarder": "PESU ECE Department",
+      "date": "27 November 2022"
+    },
+    {
+      "title": "Cryptography and Steganography Lecture",
+      "date": "April 26 2023",
+      "summary": "Organized a workshop and gave a talk on steganography and cryptography",
+      "awarder": "ISFCR PESU"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
